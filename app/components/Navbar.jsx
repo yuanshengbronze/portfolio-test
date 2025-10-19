@@ -22,8 +22,7 @@ const Navbar = () => {
 
             <ul className='hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50'>
                 <li> <Link className = 'font-joost' href='#top'> Home </Link></li>
-                <li> <Link className = 'font-joost' href='#about'> About me</Link></li>
-                <li> <Link className = 'font-joost' href='#work'> My Work </Link></li>
+                <li> <Link className = 'font-joost' href='#about'> About Me</Link></li>
                 <li> <Link className = 'font-joost' href='#contact'> Contact Me </Link></li>
             </ul>
 
@@ -47,8 +46,7 @@ const Navbar = () => {
                     <Image src={assets.close_black} alt='close icon' className='w-5 cursor-pointer'/>
                 </div>
                 <li> <Link className = 'font-joost' onClick={closeMenu} href='#top'> Home </Link></li>
-                <li> <Link className = 'font-joost' onClick={closeMenu} href='#about'> About me</Link></li>
-                <li> <Link className = 'font-joost' onClick={closeMenu} href='#work'> My Work </Link></li>
+                <li> <Link className = 'font-joost' onClick={closeMenu} href='#about'> About Me</Link></li>
                 <li> <Link className = 'font-joost' onClick={closeMenu} href='#contact'> Contact Me </Link></li>
             </ul>
 
