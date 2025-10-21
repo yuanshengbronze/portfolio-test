@@ -1,5 +1,6 @@
-export default function contect() {
+export default function contact() {
     return (
-        <h1>Welcome to the Contect Page!</h1>
+        <><h1>Welcome to the Contact Page!</h1>
+        <h2> Email: elbert.tristanlie1@gmail.com </h2></>
       );
 }
